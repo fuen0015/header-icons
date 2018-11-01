@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather';
+  font-family: Merriweather;
 }
 
 *, *::before, *::after {
@@ -13,8 +13,13 @@ header {
   background-color: #d05c2e;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  font-family: 'Merriweather', 700;
+  font-family: Merriweather;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -35,12 +40,10 @@ nav ul {
 }
 
 nav li {
-  margin: 0 .5em;
   width: 33.3333%;
   border: 1px solid #a63f38;
   text-align: center;
   margin: 0;
-
   font-size: 1.125em;
 }
 
